@@ -13,5 +13,14 @@ songMock.create = () => {
     lyrics: faker.lorem.paragraph(),
   };
 
-  return Song.create(mock.request.title, mock.request.lyrics);
+  return Song.create(mock.request.title, mock.request.lyrics)
+    .then(newSong => {
+      mock.song = newSong;
+      console.log(mock);
+      return newSong;
+    });
+};
+
+songMock.remove = () => {
+  return Song.remove({});
 };

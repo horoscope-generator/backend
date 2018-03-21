@@ -16,5 +16,6 @@ const songSchema = mongoose.Schema({
 const Song = module.exports = mongoose.model('song', songSchema);
 
 Song.create = (title, lyrics) => {
-  return new Song({title, lyrics});
+  return new Song({title, lyrics}).save();
 };
+

@@ -5,3 +5,26 @@
 {"level":"info","message":"Processing : GET on : /lyrics","timestamp":"2018-03-21T19:06:40.966Z"}
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T19:12:40.871Z"}
 {"level":"info","message":"Processing : GET on : /favicon.ico","timestamp":"2018-03-21T20:42:11.510Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T22:20:12.810Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:20:17.825Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:46:44.673Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:47:20.674Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:49:30.845Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:50:26.770Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T22:52:23.323Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T22:52:28.337Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T23:00:04.728Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T23:00:09.740Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T23:02:15.403Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T23:02:20.418Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T23:03:57.731Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T23:04:02.748Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T23:04:32.577Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T23:04:32.584Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-21T23:05:08.136Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-21T23:05:08.143Z"}
+{"level":"info","message":"Processing : GET on : /lyrics","timestamp":"2018-03-21T23:05:16.939Z"}
+{"level":"info","message":"Processing : GET on : /lyrics","timestamp":"2018-03-21T23:05:18.645Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-21T23:12:01.403Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-21T23:12:48.643Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-21T23:13:31.758Z"}

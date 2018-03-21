@@ -1,0 +1,50 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Horoscope Generator Backend",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ./",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoscope-generator/backend.git"
+  },
+  "keywords": [
+    "jest",
+    "horoscope",
+    "backend"
+  ],
+  "author": "Catherine Looper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/horoscope-generator/backend/issues"
+  },
+  "homepage": "https://github.com/horoscope-generator/backend#readme",
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "jest": "^22.4.2"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "fs-extra": "^5.0.0",
+    "http-errors": "^1.6.2",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.11",
+    "superagent": "^3.8.2",
+    "winston": "^2.4.1"
+  }
+}

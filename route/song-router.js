@@ -12,7 +12,7 @@ const songRouter = module.exports = new Router()
 //++++++++++++++++++GET+++++++++++++++++++++++
 
 songRouter.post('/lyrics', (request, response, next) => {
-  if(!request.content) {
+  if(!request.title || !request.lyrics) {
     return next(new httpErrors(404, '__ERROR__ Not Found'));
   }
 
@@ -23,7 +23,8 @@ songRouter.post('/lyrics', (request, response, next) => {
     .then(songObject => {
       return new Song ({
         ...request.body,
-        content: songObject.lyrics,
+        title: songObject.title,
+        lyrics: songObject.lyrics,
       }).save()
         .then(song => response.json(song))
         .catch(next);
@@ -31,7 +32,7 @@ songRouter.post('/lyrics', (request, response, next) => {
     .catch(next);
 });
 
-songRouter.get('/songs', (request, response, next) => {
+songRouter.get('/lyrics', (request, response, next) => {
   if(!request.song)
     return next(new httpErrors(404, '__ERROR__ Not Found'));
   Song.findOne({content: request.lyrics})

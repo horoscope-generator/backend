@@ -3,7 +3,11 @@
 const mongoose = require('mongoose');
 
 const songSchema = mongoose.Schema({
-  content: {
+  title: {
+    type: String,
+    required: true,
+  },
+  lyrics: {
     type: String,
     required: true,
   },

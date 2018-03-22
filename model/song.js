@@ -6,11 +6,11 @@ const Horoscope = require('./horoscope');
 const songSchema = mongoose.Schema({
   title: {
     type: String,
-    required: true,
+    // required: true,
   },
   lyrics: {
     type: String,
-    required: true,
+    // required: true,
   },
   horoscope: {
     type: mongoose.Schema.Types.ObjectId,

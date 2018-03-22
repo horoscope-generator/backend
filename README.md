@@ -1,5 +1,11 @@
 # Horoscope Generator - Backend
 
+## Motivation
+
+To create Kanye West inspired horoscopes that are randomly generated each day for each astrological sign. 
+
+This application uses MongoDB for persistence.
+
 
 # Tech / Frameworks Used
 

@@ -51,6 +51,12 @@ const horoscopeSchema = mongoose.Schema({
     type: Array,
     required: true,
   },
+  songs: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'song',
+  }],
+}, {
+  usePushEach: true,
 });
 
 const Horoscope = module.exports = mongoose.model('horoscope', horoscopeSchema);

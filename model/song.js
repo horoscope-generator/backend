@@ -1,6 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose');
+const Horoscope = require('./horoscope');
 
 const songSchema = mongoose.Schema({
   title: {
@@ -10,6 +11,11 @@ const songSchema = mongoose.Schema({
   lyrics: {
     type: String,
     required: true,
+  },
+  horoscope: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'horoscope',
   },
 });
 

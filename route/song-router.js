@@ -10,27 +10,27 @@ const songRouter = module.exports = new Router();
 
 //++++++++++++++++++GET+++++++++++++++++++++++
 
-// songRouter.post('/lyrics', (request, response, next) => {
-//   if(!request.title || !request.lyrics) {
-//     return next(new httpErrors(404, '__ERROR__ Not Found'));
-//   }
+songRouter.post('/lyrics', (request, response, next) => {
+  if(!request.title || !request.lyrics) {
+    return next(new httpErrors(404, '__ERROR__ Not Found'));
+  }
 
-//   return superagent.get(`http://www.kanyerest.xyz/api/album/graduation`)
-//     .then(response => {
-//       console.log('response.body.result[0]', response.body.result[0]);
-//       return response.body.result[0];
-//     })
-//     .then(songObject => {
-//       return new Song ({
-//         // ...request.body,
-//         title: songObject.title,
-//         lyrics: songObject.lyrics,
-//       }).save()
-//         .then(song => response.json(song))
-//         .catch(next);
-//     })
-//     .catch(next);
-// });
+  return superagent.get(`http://www.kanyerest.xyz/api/album/graduation`)
+    .then(response => {
+      console.log('response.body.result[0]', response.body.result[0]);
+      return response.body.result[0];
+    })
+    .then(songObject => {
+      return new Song ({
+        // ...request.body,
+        title: songObject.title,
+        lyrics: songObject.lyrics,
+      }).save()
+        .then(song => response.json(song))
+        .catch(next);
+    })
+    .catch(next);
+});
 
 songRouter.get('/lyrics', (request, response, next) => {
   if(!request.song)

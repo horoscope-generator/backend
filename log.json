@@ -48,3 +48,8 @@
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-22T06:57:11.341Z"}
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-22T06:58:48.497Z"}
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-22T06:59:41.491Z"}
+{"level":"info","message":"Processing : GET on : /lyrics","timestamp":"2018-03-22T21:10:17.041Z"}
+{"level":"info","message":"Processing : GET on : /favicon.ico","timestamp":"2018-03-22T21:10:17.238Z"}
+{"level":"info","message":"Processing : GET on : /favicon.ico","timestamp":"2018-03-22T22:04:26.985Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-22T22:39:18.063Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-22T22:39:23.065Z"}

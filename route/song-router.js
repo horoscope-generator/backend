@@ -19,10 +19,10 @@ songRouter.post('/lyrics', bodyParser, (request, response, next) => {
     .then(response => response.json())
     .then(songObject => songObject.result[0].title)
     .then(songObject => {
-      return newSong({
+      return new Song({
         title: songObject.result[0].title,
         lyrics: songObject.result[0].lyrics,
-      });
+      }).save();
     })
     .catch(next);
 });

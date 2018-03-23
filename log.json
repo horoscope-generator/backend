@@ -53,3 +53,5 @@
 {"level":"info","message":"Processing : GET on : /favicon.ico","timestamp":"2018-03-22T22:04:26.985Z"}
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-22T22:39:18.063Z"}
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-22T22:39:23.065Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-23T18:49:16.610Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-23T18:49:21.608Z"}

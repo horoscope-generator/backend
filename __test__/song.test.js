@@ -3,7 +3,7 @@
 require('dotenv').config();
 
 const superagent = require('superagent');
-const server = require('../lib/server');
+// const server = require('../lib/server');
 // const songMock = require('./lib/songmock-factory');
 const Song = require('../model/song');
 
@@ -20,6 +20,8 @@ describe('SONG router', () => {
         .then(response => {
           console.log('response.status', response.status);
           expect(response.status).toEqual(200);
+          console.log('response.title', response.title);
+          expect(response.title).toEqual('good_morning');
         })
         .catch(console.log);
     });

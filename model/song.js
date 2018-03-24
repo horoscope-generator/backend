@@ -20,3 +20,7 @@ Song.create = (title, lyrics) => {
   return new Song({title, lyrics}).save();
 };
 
+// Song.remove = (title, lyrics) => {
+  
+// }
+

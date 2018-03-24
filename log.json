@@ -56,3 +56,16 @@
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-23T18:49:16.610Z"}
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-23T18:49:21.608Z"}
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-24T16:48:55.705Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-24T18:26:17.950Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:26:24.570Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:27:33.532Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:28:37.392Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:29:05.005Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:29:44.894Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:31:13.009Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:31:51.407Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:32:48.771Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:33:35.497Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:49:33.940Z"}
+{"level":"info","message":"Processing : POST on : /lyricds","timestamp":"2018-03-24T18:50:30.627Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:51:22.352Z"}

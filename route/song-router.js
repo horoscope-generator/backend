@@ -10,6 +10,15 @@ const songRouter = module.exports = new Router();
 
 //++++++++++++++++++GET+++++++++++++++++++++++
 
+// songRouter.post('/lyrics', bodyParser, (request, response, next) => {
+//   if(!request.title || !request.lyrics) {
+//     return next(httpErrors(400, '__ERROR__ title and lyrics are required'));
+//   }
+//   return new Song(request.body).save()
+//     .then(song => response.json(song))
+//     .catch(next);
+// });
+
 songRouter.post('/lyrics', bodyParser, (request, response, next) => {
   // if(!request.title || !request.lyrics) {
   //   return next(new httpErrors(404, '__ERROR__ Not Found'));
@@ -17,12 +26,14 @@ songRouter.post('/lyrics', bodyParser, (request, response, next) => {
 
   return superagent.get(`http://www.kanyerest.xyz/api/album/graduation`)
     .then(response => response.json())
-    .then(songObject => songObject.result[0].title)
     .then(songObject => {
       return new Song({
         title: songObject.result[0].title,
         lyrics: songObject.result[0].lyrics,
       }).save();
+    })
+    .then(response => {
+      response.sendStatus(200);
     })
     .catch(next);
 });

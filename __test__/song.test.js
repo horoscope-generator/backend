@@ -17,13 +17,13 @@ describe('SONG router', () => {
   describe('POST /lyrics', () => {
     test('Should return a 200 and a song if there are no errors', () => {
       return superagent.post(`${__API_URL__}/lyrics`)
-        .send({
-          title: 'cameron',
-          lyrics: 'cameron loves movies',
-        })
+        // .send({
+        //   title: 'cameron',
+        //   lyrics: 'cameron loves movies',
+        // })
         .then(response => {
-          expect(response.status).toEqual(200);
-          // expect(response.body.title).toEqual('good_morning');
+          // expect(response.status).toEqual(200);
+          expect(response.body.title).toEqual('good_morning');
         });
     });
   });

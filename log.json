@@ -107,3 +107,5 @@
 {"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:17:39.374Z"}
 {"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:17:39.374Z"}
 {"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:17:39.374Z"}
+{"level":"info","message":"Processing : GET on : /","timestamp":"2018-03-24T21:24:53.924Z"}
+{"level":"info","message":"Processing : GET on : /","timestamp":"2018-03-24T21:25:41.909Z"}

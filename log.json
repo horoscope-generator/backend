@@ -55,3 +55,57 @@
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-22T22:39:23.065Z"}
 {"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-23T18:49:16.610Z"}
 {"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-23T18:49:21.608Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-24T16:48:55.705Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2018-03-24T18:26:17.950Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:26:24.570Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:27:33.532Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:28:37.392Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:29:05.005Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:29:44.894Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:31:13.009Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T18:31:51.407Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:32:48.771Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:33:35.497Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:49:33.940Z"}
+{"level":"info","message":"Processing : POST on : /lyricds","timestamp":"2018-03-24T18:50:30.627Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T18:51:22.352Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2018-03-24T19:56:38.235Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T19:59:05.159Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T19:59:43.486Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:00:30.781Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:01:18.407Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:03:57.734Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:04:37.292Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:08:35.885Z"}
+{"level":"info","message":"Processing : GET on : /","timestamp":"2018-03-24T20:08:53.431Z"}
+{"level":"info","message":"Processing : GET on : /favicon.ico","timestamp":"2018-03-24T20:08:53.855Z"}
+{"level":"info","message":"Processing : GET on : /lyrics","timestamp":"2018-03-24T20:08:57.857Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:11:09.800Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:11:44.604Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:12:23.957Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2018-03-24T20:12:24.510Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:12:24.511Z"}
+{"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:12:24.511Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:12:24.511Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:15:18.874Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2018-03-24T20:15:19.316Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:15:19.316Z"}
+{"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:15:19.316Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:15:19.316Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:16:11.886Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2018-03-24T20:16:12.352Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:16:12.352Z"}
+{"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:16:12.352Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:16:12.352Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:16:38.084Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2018-03-24T20:16:38.701Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:16:38.701Z"}
+{"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:16:38.701Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:16:38.701Z"}
+{"level":"info","message":"Processing : POST on : /lyrics","timestamp":"2018-03-24T20:17:38.925Z"}
+{"level":"info","message":"__ERROR_MIDDLEWARE__","timestamp":"2018-03-24T20:17:39.374Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:17:39.374Z"}
+{"level":"info","message":"Responding with a 500 status code","timestamp":"2018-03-24T20:17:39.374Z"}
+{"message":"Cannot read property '0' of undefined","stack":"TypeError: Cannot read property '0' of undefined\n    at superagent.get.then.songObject (/Users/catherinelooper/myprojects/horoscope-generator-react/backend/route/song-router.js:37:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"info","timestamp":"2018-03-24T20:17:39.374Z"}
+{"level":"info","message":"Processing : GET on : /","timestamp":"2018-03-24T21:24:53.924Z"}
+{"level":"info","message":"Processing : GET on : /","timestamp":"2018-03-24T21:25:41.909Z"}

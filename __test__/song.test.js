@@ -14,14 +14,14 @@ describe('SONG router', () => {
   // beforeAll(server.start);
   // afterAll(server.stop);
 
-  describe('POST /lyrics', () => {
+  describe('GET /lyrics', () => {
     test('Should return a 200 and a song if there are no errors', () => {
-      superagent.post(`${__API_URL__}/lyrics`)
+      superagent.get(`${__API_URL__}/lyrics`)
         .then(response => {
           console.log('response.status', response.status);
           expect(response.status).toEqual(200);
           console.log('response.title', response.title);
-          expect(response.title).toEqual('good_morning');
+          expect(response.text).toEqual('good_morning');
         })
         .catch(console.log);
     });

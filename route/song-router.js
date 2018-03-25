@@ -1,23 +1,24 @@
 'use strict';
 
 const {Router} = require('express');
-// const jsonParser = require('body-parser').json();
+const jsonParser = require('body-parser').json();
 // const Song = require('../model/song');
 const superagent = require('superagent');
 // const lyrics = require('song.json');
-let __API_URL__ = process.env.API_URL;
+// let __API_URL__ = process.env.API_URL;
 
 const songRouter = module.exports = new Router();
 
 //++++++++++++++++++GET+++++++++++++++++++++++
 
-songRouter.get('/lyrics', (request, response, next) => {
+songRouter.get('/lyrics', jsonParser, (request, response, next) => {
 
   superagent.get(`http://www.kanyerest.xyz/api/album/graduation`)
     .then(songObject => response.send(songObject.text),
       err => response.send(err)
     );
 });
+
 
 // songRouter.get('/lyrics', jsonParser, (request, response, next) => {
   

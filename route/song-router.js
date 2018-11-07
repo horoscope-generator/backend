@@ -19,10 +19,6 @@ songRouter.get('/lyrics', jsonParser, (request, response, next) => {
     );
 });
 
-
-// songRouter.get('/lyrics', jsonParser, (request, response, next) => {
-  
-//     superagent.get(`http://www.kanyerest.xyz/api/album/graduation`)
 //       .then(songObject => {
 //         console.log('song object.result[0]', songObject.response.text.result[0]);
 //         return new Song({
